@@ -55,3 +55,8 @@ h1 {
   background-color: #9b59b6; /* Purple */
   flex-grow: 1; /* Takes 1 share of extra space */
 }
+
+.box-5 {
+  background-color: #f39c12; /* Orange */
+  flex-grow: 1; /* Takes 1 share of extra space */
+}
