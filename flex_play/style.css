@@ -50,3 +50,8 @@ h1 {
   background-color: #2ecc71; /* Green */
   flex-grow: 1; /* Takes 1 share of extra space */
 }
+
+.box-4 {
+  background-color: #9b59b6; /* Purple */
+  flex-grow: 1; /* Takes 1 share of extra space */
+}
