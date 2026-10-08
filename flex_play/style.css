@@ -60,3 +60,8 @@ h1 {
   background-color: #f39c12; /* Orange */
   flex-grow: 1; /* Takes 1 share of extra space */
 }
+
+.box-6 {
+  background-color: #1abc9c; /* Teal */
+  flex-grow: 1; /* Takes 1 share of extra space */
+}
