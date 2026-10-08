@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+ background-color: #6449EC;
+ color: #f5f0f0cb;
+ font-family: "Poppins", sans-serif;
+}
+section{
+ width: 22rem;
+ position: absolute;
+ top: 50%;
+ right: 50%;
+ transform: translate(50%, -50%);
+ box-shadow: 0.2rem 0.2rem 1rem 0.2rem #f6cc11;
+}
+.personal{
+  background-color: #0d3258;
+  padding: 1rem 0 0.5rem 0;
+}
+.personal .badge{
+  background-color: #f6cc11;
+  border: 0.1rem solid #f6cc11;
+  border-radius: 0.1rem;
+  color: #0d3258;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.1rem 0.5rem;
+}
+.personal img{
+  width: 8rem;
+  height: 8rem;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 0.1rem solid #f6cc11;
+}
+
+/* .name,
+.location,
+.title {
+  text-align: center;
+  padding: 0.5rem 0;
+} */
+.personal .name{
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.personal .location{
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+.personal .title{
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.personal .buttons{
+  border-radius: 0.1rem;
+  text-align: center;
+
+}
+.personal .buttons:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.personal button.primary{
+  background-color: #f6cc11;
+  border: 0.1rem solid #f6cc11;
+  padding: 0.5rem;
+  margin-right: 0.2rem;
+    font-size: 1rem;
+}
+
+.personal button.secondary{
+  background-color: #0d3258;
+  border: 0.1rem solid #f6cc11;
+  padding: 0.5rem;
+    font-size: 1rem;
+  margin-left: 0.2rem;
+}
+
+/* button{
+  background-color: #f6cc11;
+  border: 0.1rem solid #f6cc11;
+  border-radius: 0.1rem;
+  color: #0d3258;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%); 
+  
+  padding: 0.5rem 1rem;
+} */
+
+.social-icons{
+  text-align: center;
+  padding: 1rem 0rem;
+}
+.social-icons a{
+  text-decoration: none;
+  color: #f6cc11;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.social-icons a:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem #f6cc11;
+}
+.skill{
+  background-color: #051423;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.skill h2{
+ margin-bottom: 0.5rem;
+ padding: 0.5rem 0;
+ text-transform: uppercase;
+ font-size: 1.25rem;
+}
+
+.skill li{
+  list-style: none;
+  padding: 0.5rem;
+  display:inline-block;
+  border: 0.1rem solid #f6cc11;
+  margin: 0.2rem;
+}

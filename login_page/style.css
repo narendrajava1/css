@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    #a47451 0%,
+    #9c9881 16.667%,
+    #73a09d 33.333%,
+    #3b899a 50%,
+    #095b79 66.667%,
+    #002847 83.333%,
+    #000116 100%
+  );
+  height: 100vh;
+  color: #080808cb;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-container {
+  background-color: #f2f4f6;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 22rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem #f67c11;
+  min-width: 22rem;
+}
+
+.login-container h1 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: transparent;
+  /* Wipes out all default borders (top, left, right, bottom) */
+  border: none;
+  /* Adds back ONLY the bottom line */
+  border-bottom: 0.2rem solid #5252de;
+  outline: none;
+  color: #080808cb;
+  font-family: "Poppins", sans-serif;
+}
+.form-input::placeholder {
+  color: #08080894;
+  font-family: "Poppins", sans-serif;
+}
+.form-input:focus {
+  border-bottom: 0.2rem solid #f67c11;
+}
+.forgot-password {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  display: block;
+  text-decoration: none;
+  color: #080808cb;
+  cursor: pointer;
+}
+.forgot-password:hover {
+  color: #f67c11;
+}
+.form-input-btn {
+  background-color: #5252de;
+  color: #f0ededcb;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 10rem;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin: auto;
+}
+.form-input-btn:hover {
+  background-color: #f67c11;
+  color: #080808cb;
+  cursor: pointer;
+}
+.login-container span {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.login-container span > a {
+  text-decoration: none;
+  color: #080808cb;
+  cursor: pointer;
+}
+
+.login-container span > a:hover {
+  color: #f67c11;
+}
+
+.fa-square-whatsapp {
+  color: #25d366;
+  font-size: 2rem;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

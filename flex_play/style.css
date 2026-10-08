@@ -1,0 +1,52 @@
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* 1. THE FLEX CONTAINER */
+.flex-container {
+  display: flex; /* Activates Flexbox layout */
+  flex-direction: row; /* Aligns items side-by-side (Default) */
+  gap: 15px; /* Adds spacing between the boxes */
+  background-color: #ffffff;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  min-height: 150px;
+}
+
+/* 2. THE FLEX ITEMS (Common Styles) */
+.box {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+
+  /* Base size of each box before they start growing */
+  flex-basis: 150px;
+}
+
+/* Individual styling and flex-grow allocation */
+.box-1 {
+  background-color: #e74c3c; /* Red */
+  flex-grow: 1; /* Takes 1 share of extra space */
+}
+
+.box-2 {
+  background-color: #3498db; /* Blue */
+  flex-grow: 2; /* Takes 2 shares of extra space (Grows twice as fast!) */
+}
+
+.box-3 {
+  background-color: #2ecc71; /* Green */
+  flex-grow: 1; /* Takes 1 share of extra space */
+}
